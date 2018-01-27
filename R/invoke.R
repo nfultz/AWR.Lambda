@@ -3,6 +3,8 @@
 #' @param name name of the lambda function
 #' @param payload a toJSON-able R object
 #' @param ... not used
+#' @param context the client context
+#' @param client a Lambda client (invoke will be called upon it)
 #' @return function result
 #' @importFrom jsonlite toJSON fromJSON base64_enc
 #' @export

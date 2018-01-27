@@ -15,6 +15,10 @@ lambda_client()
 \item{payload}{a toJSON-able R object}
 
 \item{...}{not used}
+
+\item{context}{the client context}
+
+\item{client}{a Lambda client (invoke will be called upon it)}
 }
 \value{
 function result

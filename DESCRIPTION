@@ -4,10 +4,11 @@ Title: Call 'AWS' Lambda Functions
 Version: 1.11.249
 Author: Neal Fultz
 Maintainer: Neal Fultz <nfultz@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Amazon Lambda lets you run code without provisioning or managing servers. 
+    You pay only for the compute time you consume - there is no charge when your code is not running. 
+    'AWR.Lambda' allows using Lambda via the official Java SDK. 
 License: AGPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: AWR
+Imports: AWR, jsonlite, rJava
 RoxygenNote: 6.0.1
