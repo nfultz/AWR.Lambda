@@ -1,21 +1,15 @@
 # AWS.Lambda
 
-This an R client to interact with the [AWS Lambda Service](https://aws.amazon.com/lambda), including wrapper functions around the [Lambda Java client](http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/Lambda/AWSLambdaClient.html) to encrypt plain text and decrypt cipher using Customer Master Keys stored in Lambda.
+This an R client to interact with the [AWS Lambda Service](https://aws.amazon.com/lambda), including wrapper functions around the [Lambda Java client](http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/Lambda/AWSLambdaClient.html) to invoke functions on that service.
 
 ## Installation
 
 ![CRAN version](http://www.r-pkg.org/badges/version-ago/AWR.Lambda)
 
-The package is not yet hosted on [CRAN](https://cran.r-project.org/package=AWR.Lambda), so installation is as easy as:
+You can  easily install the most recent development version of the R package:
 
 ```r
-install.packages('AWR.Lambda')
-```
-
-But you can similarly easily install the most recent development version of the R package as well:
-
-```r
-devtools::install_github('nfultz/AWR.Lambda')
+remotes::install_github('nfultz/AWR.Lambda')
 ```
 
 This R package relies on the `jar` files bundled with the [AWR package](https://cran.r-project.org/package=AWR).
